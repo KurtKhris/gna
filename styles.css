@@ -1,3 +1,8 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    
+}
 
 .nav-link{
     color: white !important;
@@ -36,6 +41,11 @@ marquee{
     float: left;
   }
 
+.market iframe{
+    color: white;
+    background-color: none;
+}
+
   .content{
     height: 470px;
     overflow: hidden;
@@ -64,7 +74,14 @@ marquee{
 .business-text{
     color: black;
     text-decoration: none;
-    font-weight: bold;  
+    font-weight: bold; 
+    font-size: small; 
+    line-height: 1.4;
+}
+
+.business-time{
+    font-size: small;
+    line-height: 1.4;
 }
 
 .card-footer{
@@ -82,17 +99,15 @@ marquee{
         font-size: 8pt;
         list-style-type: none;
         padding: 0;
-        overflow: hidden;
-        display: inline;
+        
     
     }
     
     .market li{
-        display: inline;
+        
         padding: 10px 10px;
         text-decoration: none; 
-        float: left;
-        white-space: nowrap;
+        display: table;
       }
       .pr-2, .px-2 {
         padding-right: 0rem!important;
