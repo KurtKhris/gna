@@ -17,8 +17,11 @@ button{
     border: none !important;
 }
 
-.market iframe{
+.market{
     background-color: blue;
+}
+
+.market iframe{
     height: 55px;
     margin-bottom: 0px !important;
 }
