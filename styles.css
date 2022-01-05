@@ -17,6 +17,7 @@ button{
 marquee{
     background-color: blue ;
     color: white;
+    height: 50px;
     
 }
 
@@ -82,21 +83,23 @@ marquee{
         list-style-type: none;
         padding: 0;
         overflow: hidden;
+        display: inline;
     
     }
     
     .market li{
-        display: block;
+        display: inline;
         padding: 10px 10px;
         text-decoration: none; 
         float: left;
+        white-space: nowrap;
       }
       .pr-2, .px-2 {
         padding-right: 0rem!important;
     }
 
     .space{
-        margin-top: 35%;
+        margin-top: 5%;
     }
     .spaceScreen{
         margin-bottom: 1%;
