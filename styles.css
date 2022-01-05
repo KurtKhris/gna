@@ -84,7 +84,16 @@ button{
         text-decoration: none; 
         float: left;
       }
-    
+      .pr-2, .px-2 {
+        padding-right: 0rem!important;
+    }
+      
+  }
 
-    
+
+  footer{
+      padding-bottom: 0 !important;
+      margin-bottom: 0 !important;
+      margin-top: 0rem !important;
+      padding-bottom: 0rem !important;
   }
