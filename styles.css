@@ -13,9 +13,11 @@ button{
     border: none !important;
 }
 
-.market h3{
-    color: #468CD1;
-    margin-bottom: 0%;
+
+marquee{
+    background-color: blue ;
+    color: white;
+    
 }
 
 .market ul{
@@ -38,13 +40,14 @@ button{
     overflow: hidden;
     padding: 14px 10px;
     overflow-y: scroll;
-    background-color: rgb(231, 226, 226);
+    background-color: #F4F4F5;
 }
 
 .content a{
     color: black;
     text-decoration: none;
     font-weight: bold;
+    font-size: small;
 }
 
 .tv h3{
@@ -68,6 +71,10 @@ button{
     border: none !important;
 }
 
+.space{
+    margin-top: 3%;
+}
+
 @media only screen and (max-width: 600px) {
        
     .market ul{
@@ -87,11 +94,15 @@ button{
       .pr-2, .px-2 {
         padding-right: 0rem!important;
     }
+
+    .space{
+        margin-top: 35%;
+    }
       
   }
 
 
-  footer{
+  .foot{
       padding-bottom: 0 !important;
       margin-bottom: 0 !important;
       margin-top: 0rem !important;
