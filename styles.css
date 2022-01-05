@@ -98,6 +98,18 @@ marquee{
     .space{
         margin-top: 35%;
     }
+    .spaceScreen{
+        margin-bottom: 1%;
+    }
+
+    .content{
+        height: 470px;
+        overflow: hidden;
+        padding: 14px 10px;
+        overflow-y: scroll;
+        background-color: #F4F4F5;
+        margin-bottom: 1%;
+    }
       
   }
 
