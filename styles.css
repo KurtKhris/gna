@@ -1,6 +1,5 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.4;
     
 }
 
@@ -18,32 +17,10 @@ button{
     border: none !important;
 }
 
-
-marquee{
-    background-color: blue ;
-    color: white;
-    height: 50px;
-    
-}
-
-.market ul{
-    font-size: 8pt;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-
-}
-
-.market li{
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none; 
-    float: left;
-  }
-
 .market iframe{
-    color: white;
-    background-color: none;
+    background-color: blue;
+    height: 55px;
+    margin-bottom: 0px !important;
 }
 
   .content{
@@ -58,16 +35,27 @@ marquee{
     color: black;
     text-decoration: none;
     font-weight: bold;
+    font-size: 11pt;
+    line-height: 1.1 !important;
+    display: block;    
+}
+
+.content p{
+    text-decoration: none;
     font-size: small;
+    margin-bottom: 6px!important;   
 }
 
 .tv h3{
-    margin-top: 2%;
+    margin-top: 3%;
     color: #468CD1;;
 }
 
+.business{
+    margin-top: 3%;
+}
 .business h3{
-    margin-top: 2%;
+    margin-bottom: 0px;
     color: #468CD1;;
 }
 
@@ -75,13 +63,13 @@ marquee{
     color: black;
     text-decoration: none;
     font-weight: bold; 
-    font-size: small; 
-    line-height: 1.4;
+    font-size: 11pt; 
+    line-height: 1.1;
 }
 
 .business-time{
-    font-size: small;
-    line-height: 1.4;
+    font-size: small !important;
+    line-height: 1.1;
 }
 
 .card-footer{
@@ -94,30 +82,12 @@ marquee{
 }
 
 @media only screen and (max-width: 600px) {
-       
-    .market ul{
-        font-size: 8pt;
-        list-style-type: none;
-        padding: 0;
-        
-    
-    }
-    
-    .market li{
-        
-        padding: 10px 10px;
-        text-decoration: none; 
-        display: table;
-      }
-      .pr-2, .px-2 {
-        padding-right: 0rem!important;
-    }
 
     .space{
-        margin-top: 5%;
+        margin-top: 6%;
     }
     .spaceScreen{
-        margin-bottom: 1%;
+        margin-bottom: 2%;
     }
 
     .content{
@@ -126,7 +96,7 @@ marquee{
         padding: 14px 10px;
         overflow-y: scroll;
         background-color: #F4F4F5;
-        margin-bottom: 1%;
+        margin-bottom: 3%;
     }
       
   }
