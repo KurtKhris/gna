@@ -116,12 +116,12 @@ button{
     font-size: 13pt;
  }
 
- .stories ul{
+ .stories{
     list-style: none; 
     text-align: left;
  }
 
- .stories ul li::before{
+ .stories li::before{
     content: "\2022"; 
     color: red; 
     font-weight: bolder;
@@ -168,7 +168,7 @@ button{
         height: 150px !important;
      }
 
-     .stories ul li::before{
+     .stories li::before{
         content: "\2022"; 
         color: red; 
         font-weight: bolder;
