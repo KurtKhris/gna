@@ -103,8 +103,9 @@ button{
 }
 
 .carousel-caption p{
-    font-size: 14pt;
+    font-size: 16pt;
     line-height: 1.1;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
@@ -127,6 +128,7 @@ button{
 
     .carousel-caption p{
         font-size: 12pt;
+        font-weight: bold;
     }
 
     .business h3{
