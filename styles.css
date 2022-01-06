@@ -118,7 +118,7 @@ button{
 
  .stories li{
     font-weight: bold;
-    font-size: 13pt;
+    font-size: 11pt;
     line-height: 1.8;
  }
 
@@ -137,7 +137,14 @@ button{
     font-weight: bolder;
     display: inline-block;
     width: 1em;
-    margin-left: -2em; 
+    margin-left: -1em; 
+ }
+
+ .title{
+     color: black;
+     font-size: 14pt;
+     font-weight: bold;
+     text-decoration: none;
  }
 
 @media only screen and (max-width: 600px) {
