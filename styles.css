@@ -1,6 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 .nav-link{
@@ -38,7 +37,7 @@ button{
     color: black;
     text-decoration: none;
     font-weight: bold;
-    font-size: 11pt;
+    font-size: 13pt;
     line-height: 1.1 !important;
     display: block;    
 }
@@ -66,7 +65,7 @@ button{
     color: black;
     text-decoration: none;
     font-weight: bold; 
-    font-size: 11pt; 
+    font-size: 13pt; 
     line-height: 1.1;
 }
 
@@ -102,12 +101,4 @@ button{
         margin-bottom: 3%;
     }
       
-  }
-
-
-  .foot{
-      padding-bottom: 0 !important;
-      margin-bottom: 0 !important;
-      margin-top: 0rem !important;
-      padding-bottom: 0rem !important;
   }
