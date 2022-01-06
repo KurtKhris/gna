@@ -107,6 +107,11 @@ button{
     line-height: 1.1;
     font-weight: bold;
 }
+
+.carousel-inner{
+    height: 330px !important;
+}
+
  #carouselExampleIndicators{
     height: 340px !important;
  }
@@ -114,11 +119,16 @@ button{
  .stories li{
     font-weight: bold;
     font-size: 13pt;
+    line-height: 1.8;
+ }
+
+ .stories a{
+    text-decoration: none;
+    color: black;
  }
 
  .stories{
     list-style: none; 
-    text-align: left;
  }
 
  .stories li::before{
@@ -176,5 +186,9 @@ button{
         width: 1em;
         margin-left: -1em; 
      }
+
+     .carousel-inner{
+        height: 150px !important;
+    }
       
   }
