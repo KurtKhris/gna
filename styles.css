@@ -107,6 +107,28 @@ button{
     line-height: 1.1;
     font-weight: bold;
 }
+ #carouselExampleIndicators{
+    height: 340px !important;
+ }
+
+ .stories li{
+    font-weight: bold;
+    font-size: 13pt;
+ }
+
+ .stories ul{
+    list-style: none; 
+    text-align: left;
+ }
+
+ .stories ul li::before{
+    content: "\2022"; 
+    color: red; 
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em; 
+ }
 
 @media only screen and (max-width: 600px) {
 
@@ -114,7 +136,7 @@ button{
         margin-top: 6%;
     }
     .spaceScreen{
-        margin-bottom: 0%;
+        margin-bottom: 0% !important;
     }
 
     .content{
@@ -141,5 +163,18 @@ button{
         margin-left: 3.5%;
         margin-right: 3.5%;
     }
+
+    #carouselExampleIndicators{
+        height: 150px !important;
+     }
+
+     .stories ul li::before{
+        content: "\2022"; 
+        color: red; 
+        font-weight: bolder;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em; 
+     }
       
   }
